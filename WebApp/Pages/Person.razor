@@ -1,0 +1,31 @@
+﻿@using Application.Wrappers
+@using WebApp.Infrastructure.Features.Persons;
+@using Application.Features.Persons.Commands;
+@inject IPersonHandler PersonHandler;
+
+<div class="card" style="margin-top:20px">
+    <div class="card-body">
+        <h5 class="card-title">Add new person</h5>
+        <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input @bind="firstName" type="text" class="form-control" id="firstName" placeholder="First Name">
+        </div>
+        <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input @bind="lastName" type="text" class="form-control" id="lastName" placeholder="Last Name">
+        </div>
+        <button class="btn btn-primary" @onclick="AddPerson">Add Person</button>
+        <ResultDisplay Result="@result" />
+    </div>
+</div>
+
+@code {
+    private string firstName = "";
+    private string lastName = "" ;
+    private IResult<string> result;
+
+    private async Task AddPerson()
+    {
+        result = await PersonHandler.AddAsync(new AddPersonCommand { FirstName = firstName, LastName = lastName });
+    }
+}
