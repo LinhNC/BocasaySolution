@@ -18,7 +18,7 @@ namespace WebApp
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("#app");
 
-            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(EndPointConfig.BaseAPIAdress) });
+            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(EndPointConfig.BaseAPIAddress) });
             builder.Services.AddScoped<IPersonHandler, PersonHandler>();
             await builder.Build().RunAsync();
         }
