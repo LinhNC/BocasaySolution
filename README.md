@@ -15,7 +15,7 @@ Built with Clean Architecture with .NET Core 5. Includes both WebAPI and Web Bla
 - CQRS with MediatR
 - Fluent Validation
 - UnitTest with xUnitTest and Moq
-## Configurations
+### Setup & Configurations
 - Set both WebAPI and WebApp as Starup Projects 
 - WebAPI: For the path folder of save posted object to simple file in json format please refer to this section of appsettings.json
 ``` appsettings.json
