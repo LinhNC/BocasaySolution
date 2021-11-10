@@ -3,7 +3,7 @@
 - Backend to receive posted data as an object and save posted object to simple file in json format. 
 ### About Project
 Built with Clean Architecture with .NET Core 5. Includes both WebAPI and Web Blazor projects and WebAPI.UnitTest project.
-### Project Architecture Structure
+### Solution Architecture Structure
 ![](https://i.imgur.com/rQL7zYK.png)
 ### Built with
 -   Back-end: ASP.NET Core 5.0 WebAPI
