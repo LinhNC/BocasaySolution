@@ -1,5 +1,5 @@
 ## Bocasay Exam Solution
-- Frontend form fields to be 2 simple text fields e.g. first name, last name
+- Frontend form fields to be 2 simple text fields e.g. first name, last name.
 - Backend to receive posted data as an object and save posted object to simple file in json format. 
 ### About Project
 Built with Clean Architecture with .NET Core 5. Includes both WebAPI and Web Blazor projects and WebAPI.UnitTest project.
