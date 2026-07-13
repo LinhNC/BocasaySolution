@@ -1,3 +1,22 @@
+## Explore What I’m Building
+
+### [LinhGo →](https://linhgo.com)
+
+**Think clearly. Build better. Ship confidently.**
+
+Explore practical notes on software engineering, architecture, and scalable systems.
+
+[Read the latest articles →](https://linhgo.com/)
+
+### [OneZ →](https://onez.app)
+
+**Tools that make you ruthlessly productive.**
+
+Discover focused tools built to simplify workflows and help you move faster.
+
+[Explore the tools →](https://onez.app)
+
+
 ## Bocasay Exam Solution
 - Frontend form fields to be 2 simple text fields e.g. first name, last name.
 - Backend to receive posted data as an object and save posted object to simple file in json format. 
